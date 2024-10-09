@@ -4,8 +4,8 @@ from telebot import types
 import requests
 from currency_converter import CurrencyConverter
 
-bot = telebot.TeleBot('6615985960:AAFLRpAu7U3WgjMsasCsKQqqCH8BVTa94hM')
-API = '9f4743eb9adab6a9087580bc491ded2b'
+bot = telebot.TeleBot('TELEGRAM_API')
+API = 'WETHER_API'
 currency = CurrencyConverter()
 amount = 0
 @bot.message_handler(commands=['start'])
